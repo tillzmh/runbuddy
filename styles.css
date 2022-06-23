@@ -472,8 +472,7 @@
     display: flex;
   }
   
-  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 1300px) {
     header {
       padding-bottom: 0;
       justify-content: center;
@@ -509,11 +508,11 @@
     }
   
     .section-title {
-      width: 80%;
+      width: 100%;
     }
     
-    .trainer {
-      flex: 0 70%;
+    .trainers {
+      flex: 0 100%;
     }
     
     .contact-info iframe{
@@ -554,7 +553,7 @@
     }
   }
   
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  
   @media screen and (max-width: 575px) {
     .hero-form button {
       width: 100%;
@@ -569,7 +568,7 @@
     }
   
     .trainer {
-      flex: 0 100%;
+      flex: 2 100%;
     }
   
     .contact-info {
